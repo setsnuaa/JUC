@@ -14,6 +14,6 @@ public class TimeTask {
 
         scheduledThreadPool.scheduleAtFixedRate(() -> System.out.println("666"),3,1,TimeUnit.SECONDS);
 
-        //scheduledThreadPool.shutdown();
+        scheduledThreadPool.shutdown();
     }
 }
